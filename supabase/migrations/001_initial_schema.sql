@@ -1,6 +1,3 @@
--- Enable Row Level Security
-alter database postgres set "app.jwt_secret" to 'your-jwt-secret';
-
 -- Create custom types
 create type application_status as enum ('draft', 'in_progress', 'completed', 'submitted');
 
