@@ -10,7 +10,9 @@
       "Bash(npm run tailwindcss init:*)",
       "Bash(node_modules\\.bin\\tailwindcss init:*)",
       "Bash(mkdir:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm run:*)"
     ]
   },
   "enabledMcpjsonServers": [
