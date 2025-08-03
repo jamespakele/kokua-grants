@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcopy:*)",
+      "Bash(rmdir:*)",
+      "Bash(robocopy:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(npm run tailwindcss init:*)",
+      "Bash(node_modules\\.bin\\tailwindcss init:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run build:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "github-mcp",
+    "apidog-mcp",
+    "filesystem-mcp",
+    "sequential-thinking-mcp",
+    "postgres-mcp",
+    "context7-mcp",
+    "github",
+    "apidog",
+    "filesystem",
+    "sequential-thinking",
+    "postgres",
+    "context7"
+  ],
+  "disabledMcpjsonServers": [
+    "puppeteer-mcp",
+    "figma-mcp",
+    "zapier-mcp",
+    "memorybank-mcp"
+  ]
+}
